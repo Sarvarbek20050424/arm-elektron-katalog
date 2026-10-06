@@ -11,8 +11,7 @@ class Settings(BaseSettings):
         "http://localhost",
         "http://localhost:5173",
         "http://localhost:80",
-        "https://arm-elektron-katalog.netlify.app",
-        "https://*.netlify.app",  # Barcha Netlify preview URL'lari uchun
+        "https://arm-elektron-katalog.netlify.app",  # YANGI: Netlify manzili qo'shildi
     ]
 
     model_config = SettingsConfigDict(env_file=".env")
