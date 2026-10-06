@@ -1,0 +1,12 @@
+[
+  {"reader_id": "r_1001", "book_id": "b_0001", "taken_at": "2026-09-20", "due_at": "2026-10-20", "returned_at": null},
+  {"reader_id": "r_1001", "book_id": "b_0015", "taken_at": "2026-08-15", "due_at": "2026-09-15", "returned_at": "2026-09-14"},
+  {"reader_id": "r_1002", "book_id": "b_0012", "taken_at": "2026-09-01", "due_at": "2026-10-01", "returned_at": null},
+  {"reader_id": "r_1002", "book_id": "b_0017", "taken_at": "2026-07-10", "due_at": "2026-08-10", "returned_at": "2026-08-09"},
+  {"reader_id": "r_1003", "book_id": "b_0022", "taken_at": "2026-09-10", "due_at": "2026-10-10", "returned_at": null},
+  {"reader_id": "r_1003", "book_id": "b_0021", "taken_at": "2026-06-01", "due_at": "2026-07-01", "returned_at": "2026-06-30"},
+  {"reader_id": "r_1004", "book_id": "b_0027", "taken_at": "2026-09-15", "due_at": "2026-10-15", "returned_at": null},
+  {"reader_id": "r_1004", "book_id": "b_0026", "taken_at": "2026-05-20", "due_at": "2026-06-20", "returned_at": "2026-06-19"},
+  {"reader_id": "r_1005", "book_id": "b_0002", "taken_at": "2026-09-25", "due_at": "2026-10-25", "returned_at": null},
+  {"reader_id": "r_1005", "book_id": "b_0032", "taken_at": "2026-04-15", "due_at": "2026-05-15", "returned_at": "2026-05-14"}
+]

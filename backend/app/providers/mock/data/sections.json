@@ -1,0 +1,44 @@
+[
+  {
+    "id": "s_1",
+    "name": "O'quv zali",
+    "books_count": 240,
+    "children": [
+      {"id": "s_11", "name": "Texnika", "books_count": 80, "children": []},
+      {"id": "s_12", "name": "Iqtisodiyot", "books_count": 60, "children": []},
+      {"id": "s_13", "name": "Huquq", "books_count": 50, "children": []},
+      {"id": "s_14", "name": "Tibbiyot", "books_count": 50, "children": []}
+    ]
+  },
+  {
+    "id": "s_2",
+    "name": "Ilmiy kutubxona",
+    "books_count": 180,
+    "children": [
+      {"id": "s_21", "name": "Matematika", "books_count": 45, "children": []},
+      {"id": "s_22", "name": "Fizika", "books_count": 40, "children": []},
+      {"id": "s_23", "name": "Kimyo", "books_count": 35, "children": []},
+      {"id": "s_24", "name": "Biologiya", "books_count": 30, "children": []},
+      {"id": "s_25", "name": "Geografiya", "books_count": 30, "children": []}
+    ]
+  },
+  {
+    "id": "s_3",
+    "name": "Badiiy adabiyot",
+    "books_count": 120,
+    "children": [
+      {"id": "s_31", "name": "O'zbek adabiyoti", "books_count": 60, "children": []},
+      {"id": "s_32", "name": "Jahon adabiyoti", "books_count": 60, "children": []}
+    ]
+  },
+  {
+    "id": "s_4",
+    "name": "Chet tillari",
+    "books_count": 80,
+    "children": [
+      {"id": "s_41", "name": "Ingliz tili", "books_count": 40, "children": []},
+      {"id": "s_42", "name": "Rus tili", "books_count": 25, "children": []},
+      {"id": "s_43", "name": "Nemis tili", "books_count": 15, "children": []}
+    ]
+  }
+]

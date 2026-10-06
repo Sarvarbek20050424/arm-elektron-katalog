@@ -1,0 +1,47 @@
+[
+  {
+    "id": "r_1001",
+    "full_name": "Aliyev Vali",
+    "hemis_id": "381211100123",
+    "password": "test123",
+    "faculty": "Axborot texnologiyalari",
+    "course": "3-kurs",
+    "group": "AT-21"
+  },
+  {
+    "id": "r_1002",
+    "full_name": "Sobirova Nilufar",
+    "hemis_id": "381211100124",
+    "password": "test123",
+    "faculty": "Iqtisodiyot",
+    "course": "2-kurs",
+    "group": "IQ-22"
+  },
+  {
+    "id": "r_1003",
+    "full_name": "Rahimov Jasur",
+    "hemis_id": "381211100125",
+    "password": "test123",
+    "faculty": "Huquqshunoslik",
+    "course": "4-kurs",
+    "group": "HU-20"
+  },
+  {
+    "id": "r_1004",
+    "full_name": "Toshmatova Dilnoza",
+    "hemis_id": "381211100126",
+    "password": "test123",
+    "faculty": "Tibbiyot",
+    "course": "1-kurs",
+    "group": "TB-23"
+  },
+  {
+    "id": "r_1005",
+    "full_name": "Karimov Bobur",
+    "hemis_id": "381211100127",
+    "password": "test123",
+    "faculty": "Axborot texnologiyalari",
+    "course": "2-kurs",
+    "group": "AT-22"
+  }
+]

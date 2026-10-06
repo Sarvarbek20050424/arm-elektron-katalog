@@ -1,0 +1,30 @@
+﻿{
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish"
+  },
+  "auth": {
+    "login": "Kirish",
+    "hemis_id": "HEMIS ID",
+    "password": "Parol",
+    "login_button": "Tizimga kirish",
+    "invalid_credentials": "HEMIS ID yoki parol noto'g'ri."
+  },
+  "nav": {
+    "catalog": "Katalog",
+    "cabinet": "Mening kabinetim",
+    "logout": "Chiqish"
+  },
+  "catalog": {
+    "search_placeholder": "Nomi, muallif, ISBN bo'yicha qidirish..."
+  },
+  "book": {
+    "copies_available": "nusxadan",
+    "available": "Mavjud",
+    "borrowed": "Band",
+    "unavailable": "Hisobdan chiqarilgan",
+    "return_date": "Qaytarish sanasi"
+  }
+}
