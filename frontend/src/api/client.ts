@@ -1,8 +1,11 @@
 ﻿import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios';
 import { ErrorResponse } from './types';
 
+// Production'da VITE_API_URL ishlatiladi, lokalda proxy
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api/v1';
+
 const api = axios.create({
-  baseURL: '/api/v1',
+  baseURL: API_BASE_URL,
   headers: {
     'Content-Type': 'application/json',
   },
