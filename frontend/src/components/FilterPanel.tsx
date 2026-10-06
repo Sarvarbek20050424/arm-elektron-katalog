@@ -19,12 +19,12 @@ export const FilterPanel = () => {
 
       <select value={language} onChange={(e) => setParam('language', e.target.value)} className="w-full p-2 border rounded dark:bg-gray-700 dark:text-white">
         <option value="">Til: Barchasi</option>
-        {filters?.languages?.map((lang) => <option key={lang} value={lang}>{lang}</option>)}
+        {filters?.languages?.map((lang: string) => <option key={lang} value={lang}>{lang}</option>)}
       </select>
 
       <select value={type} onChange={(e) => setParam('type', e.target.value)} className="w-full p-2 border rounded dark:bg-gray-700 dark:text-white">
         <option value="">Tur: Barchasi</option>
-        {filters?.types?.map((t) => <option key={t} value={t}>{t}</option>)}
+        {filters?.types?.map((t: string) => <option key={t} value={t}>{t}</option>)}
       </select>
 
       <div className="flex gap-2">
@@ -38,3 +38,4 @@ export const FilterPanel = () => {
     </div>
   );
 };
+

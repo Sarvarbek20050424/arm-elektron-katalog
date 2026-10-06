@@ -29,6 +29,14 @@ export interface Section {
   children: Section[];
 }
 
+export interface Copy {
+  barcode: string;
+  inventory_number: string;
+  section: string;
+  status: 'available' | 'borrowed' | 'unavailable';
+  due_at: string | null;
+}
+
 export interface BookSummary {
   id: string;
   title: string;
@@ -47,11 +55,45 @@ export interface BookSummary {
   copies_available: number;
 }
 
+export interface BookDetail {
+  id: string;
+  title: string;
+  author: string;
+  publisher?: string;
+  city?: string;
+  year: number;
+  pages?: string;
+  language: string;
+  type: string;
+  isbn?: string;
+  udk?: string;
+  kbk?: string;
+  annotation?: string;
+  editor?: string;
+  translator?: string;
+  cover_url?: string | null;
+  section: {
+    id: string;
+    name: string;
+    path: string[];
+  };
+  status: 'available' | 'borrowed' | 'unavailable';
+  copies_total: number;
+  copies_available: number;
+  nearest_due_at?: string | null;
+  copies: Copy[];
+}
+
 export interface BookListResponse {
   items: BookSummary[];
   total: number;
   page: number;
   page_size: number;
+}
+
+export interface FilterOptions {
+  languages: string[];
+  types: string[];
 }
 
 export interface Loan {
